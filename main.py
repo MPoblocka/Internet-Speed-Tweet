@@ -104,8 +104,9 @@ class InternetSpeedTwitterBot():
             self.tweet.click()
             time.sleep(5)
 
+# CREATED OBJECT FROM THE CLASS
 object_1 = InternetSpeedTwitterBot(CHROME_DRIVER_PATH)
-
+#CALLED THE CLASS METHODS
 object_1.get_internet_speed()
 object_1.tweet_at_provider()
 
